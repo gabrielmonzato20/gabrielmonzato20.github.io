@@ -3,9 +3,12 @@
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
   <style>
     body {
       background-color: #f8f9fa;
@@ -19,10 +22,43 @@
       border-radius: 10px;
       margin-bottom: 10px;
     }
+    .header-section {
+  background-color: #000;
+  padding: 20px 0;
+}
+
+.header-section .icon-link {
+  color: #fff;
+  margin: 0 15px;
+}
+
+.header-section .icon-link:hover {
+  color: #ccc;
+}
   </style>
 </head>
 <body>
+
   <div class="container mt-5">
+    <header class="header-section">
+        <div class="container text-center">
+          <a href="https://www.linkedin.com/in/gabriel-grigorio/" target="_blank" class="icon-link">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="mailto:gabrielmonzato20@gmail.com" class="icon-link">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+          <a href="https://github.com/gabrielmonzato20" target="_blank" class="icon-link">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+      </header>
+      
+    <div class="summary-section mb-5">
+        <h2 class="mb-3">Summary</h2>
+        <p>
+            I am a Java Software Engineer with over 6 years of experience in programming languages such as Java, Python, and JavaScript, and frameworks and technologies like Spring, Django, and React. Currently, I am pursuing a postgraduate degree in Applied AI Solutions Development at George Brown College, with a focus on artificial intelligence and cloud computing. In my previous role at EcommIT Integrated Solutions, I developed robust software systems for industries like banking, telecommunications, and e-commerce, achieving significant improvements in performance, security, and usability. My expertise also includes designing distributed architectures and fault-tolerant systems. Additionally, I have experience with AI and Big Data, working with models such as KMM, regression, classification, and GAN. I hold an AWS Developer Associate Certificate         </p>
+      </div>
     <h1 class="mb-4">Projects</h1>
     <div class="list-group">
       <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
@@ -45,6 +81,22 @@
       </a>
       <!-- Add more projects as needed -->
     </div>
+    <div class="certifications-section  mb-5">
+        <h2 class="mb-3">Certifications</h2>
+        <div class="certification-item">
+          <img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Developer-Associate_badge.5c083fa855fe82c1cf2d0c8b883c265ec72a17c0.png" alt="AWS Logo" width="100">
+          <h5>AWS Certified Developer - Associate</h5>
+        </div>
+        <div class="certification-item mt-4">
+          <img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png" alt="AWS Logo" width="100">
+          <h5>AWS Certified Solutions Architect - Associate</h5>
+        </div>
+      </div>
   </div>
+  <div class="container mt-5">
+    <!-- Other sections -->
+   
+  </div>
+  
 </body>
 </html>
